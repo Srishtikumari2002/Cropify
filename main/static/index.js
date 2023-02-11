@@ -17,6 +17,7 @@ const predict = () => {
             console.log(res);
             let content;
             if (res.status == 200) {
+                $('.response-container').show();
                 content=`The suggested crop is ${res.crop}.\n\n
                 Based on following metrics:\nTemperature: ${res.temperature}
                 Humidity: ${res.humidity}
