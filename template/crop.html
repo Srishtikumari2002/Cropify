@@ -4,11 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='crop.css')}}">
     <title>Crop Prediction</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    
-    <form action="/app.py" method="POST">
+    <nav>
+        <ul>
+          <a href="#"><li>Home</li></a>
+          <a href="#"><li>About</li></a>
+          <a href="#"><li>Services</li></a>
+          <a href="#"><li>Products</li></a>
+          <a href="#"><li>Blog</li></a>
+          <a href="#"><li>Contact</li></a>
+        </ul>
+      <div class="handle">Menu</div>
+    </nav>
+    <script>
+        $('.handle').on('click', function(){
+          $('nav ul').toggleClass('showing');
+        });
+      </script>
+
+<section id="home">
+    <h1 class="h-primary">Welcome to Our <br> Crop Prediction <br> Website</h1>
+
+</section>
+
+    {{ prediction }}
+
+    <form action="/" method="POST">
         <label for="state">State:</label>
         <input type="text" id="state" name="state"><br><br>
         <label for="district">District:</label>
