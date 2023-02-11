@@ -6,14 +6,14 @@ A crop predictor is a tool that utilizes AI algorithms and data analysis to pred
 Overall, the use of a crop prediction model can have a significant impact on the success and profitability of a farm. By providing farmers with the information they need to make informed decisions, this technology has the potential to increase crop yields, reduce costs, and minimize risks. As such, it is an essential tool for modern agriculture and a valuable resource for farmers looking to maximize their returns.
 
 ## Methodology
-Our project uses a combination of machine learning models, including Support Vector Regression and Random Forest Regressor, to predict the following:
+Our project uses a combination of machine learning models, including Support Vector Regression and Random Forest Regressor, to predict the following using datasets obtained from various sources, including Kaggle:
 * Rainfall
 * Temperature
-* Humidity
-* Soil composition
+* Crop prediction
 * Crop production yield
-* Our model has been trained on datasets obtained from various sources, including Kaggle.
-* We have also used an API to get the humidity data of a particular location as it was not in the given dataset.
+We have also used an OpenWeatherMap API to get the humidity data of a particular location as it was not in the given dataset. 
+
+## Flow of the code
 
 ## Results
 * Testing accuracy of 80% for rainfall and temperature prediction.
