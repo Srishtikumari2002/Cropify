@@ -36,6 +36,9 @@ We have also used an OpenWeatherMap API to get the humidity data of a particular
 *  Testing accuracy of 99% for crop prediction based on geolocation and season.
 * Room for improvement and we are actively working to improve the accuracy of our model.
 
+![Alt text](https://raw.githubusercontent.com/Radhasingh95/TRINIT_594092-U94NJ8W1_ML/main/images/web1.png)
+![Alt text](https://raw.githubusercontent.com/Radhasingh95/TRINIT_594092-U94NJ8W1_ML/main/images/web2.png)
+![Alt text](https://raw.githubusercontent.com/Radhasingh95/TRINIT_594092-U94NJ8W1_ML/main/images/web3.png)
 ## Constraints
 * Currently, our model can predict the temperature of 8 cities. Therefore our crop prediction model can also only predict for 8 locations.
 * Insufficient data for N, K, and P composition for different locations.
