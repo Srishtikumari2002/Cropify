@@ -18,6 +18,7 @@ Our project uses a combination of machine learning models, including Support Vec
 ## Results
 * Testing accuracy of 80% for rainfall and temperature prediction.
 * Testing accuracy of 25% for crop production yield prediction.
+*  Testing accuracy of 99% for crop prediction based on geolocation and season.
 * Room for improvement and we are actively working to improve the accuracy of our model.
 
 ## Constraints
