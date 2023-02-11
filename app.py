@@ -24,9 +24,9 @@ def get_val():
         month = request.form.get('month')
         price = request.form.get('price')
         soil = request.form.get('soil')  
-        return render_template('crop.html', prediction=Predict(state, district, year, month, price, soil) )
+        return render_template('Index.html', prediction=Predict(state, district, year, month, price, soil) )
 
-    return render_template('crop.html')
+    return render_template('Index.html')
 
 if __name__=='__main__':
     app.run()
