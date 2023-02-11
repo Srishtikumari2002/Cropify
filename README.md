@@ -31,7 +31,7 @@ We have also used an OpenWeatherMap API to get the humidity data of a particular
 ![Alt text](https://github.com/Radhasingh95/TRINIT_594092-U94NJ8W1_ML/blob/main/images/Accuracies%20of%20various%20models%20for%20Crop%20prediction.png)
 
 ## Results
-* Testing accuracy of 80% for rainfall and temperature prediction.
+* Testing accuracy of 78.50% for rainfall and 80% for temperature prediction.
 * Testing accuracy of 25% for crop production yield prediction.
 *  Testing accuracy of 99% for crop prediction based on geolocation and season.
 * Room for improvement and we are actively working to improve the accuracy of our model.
