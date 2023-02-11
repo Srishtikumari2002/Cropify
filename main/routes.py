@@ -1,28 +1,28 @@
-from flask import Flask, render_template, request
+from main import app
+from datetime import date
 import pandas as pd
 import numpy as np
 import joblib
 import pickle
-
-# creating flask object
-app = Flask(__name__)
+from flask import render_template, url_for, flash, redirect, request
 
 
+model1 = pickle.load(
+    open("main\\models\\rainfall_pred_RandomForest.pkl", 'rb'))
 
-model1 = pickle.load(open('./models/rainfall_pred_RandomForest.pkl','rb'))
+#model2 = joblib.load("main\\models\\random_forest_crop.joblib")
 
-
-model2 = joblib.load("./models/random_forest_crop.joblib")
-
-def Predict2(state,district,year,month,price,soil):
+'''def Predict2(state,district,year,month,price,soil):
     y_pred = model2.predict([state,district,year,month,price,soil])
     print(y_pred)
-    return y_pred
+    return y_pred'''
 
-def Predict1(rainfall_year,rainfall_month):
-    y_pred = model1.predict([[rainfall_year,rainfall_month]])
+
+def Predict1(rainfall_year, rainfall_month):
+    y_pred = model1.predict([[rainfall_year, rainfall_month]])
     print(y_pred)
     return y_pred
+
 
 @app.route('/')
 def home():
@@ -34,13 +34,12 @@ def get_rainfall():
     if (request.method == 'POST'):
         rainfall_year = request.form.get('rainfall_year')
         rainfall_month = request.form.get('rainfall_month')
-        return render_template('Index.html', prediction=Predict1(rainfall_year,rainfall_month) )
-        
+        return render_template('Index.html', prediction=Predict1(rainfall_year, rainfall_month))
 
     return render_template('Index.html')
 
 
-@app.route('/prediction', methods=['GET', 'POST'])
+'''@app.route('/prediction', methods=['GET', 'POST'])
 def get_val():
     if (request.method == 'POST'):
         
@@ -52,8 +51,4 @@ def get_val():
         soil = request.form.get('soil')  
         return render_template('Index.html', prediction=Predict2(state, district, year, month, price, soil) )
 
-    return render_template('Index.html')
-
-
-if __name__=='__main__':
-    app.run()
+    return render_template('Index.html')'''
