@@ -14,6 +14,21 @@ Our project uses a combination of machine learning models, including Support Vec
 We have also used an OpenWeatherMap API to get the humidity data of a particular location as it was not in the given dataset. 
 
 ## Flow of the code
+* Input 3 values from the user: month, year, and location.
+* Use month, year, and location to predict rainfall and temperature.
+* Use OpenWeatherMap API to fetch humidity value.
+* Fetch N, K, and P values using a custom dataset.
+* Use all these values for crop prediction.
+* Using the predicted crop, predict crop production yield.
+
+## Crop prediction
+* Due to insuffient data about N, K, and P values, we have converted absolute values to high, medium, low.
+![Alt text](https://github.com/Radhasingh95/TRINIT_594092-U94NJ8W1_ML/blob/main/images/Image%20of%20Crop%20prediction%20dataset.png)
+<br>
+
+* Accureries of different models
+
+![Alt text](https://github.com/Radhasingh95/TRINIT_594092-U94NJ8W1_ML/blob/main/images/Accuracies%20of%20various%20models%20for%20Crop%20prediction.png)
 
 ## Results
 * Testing accuracy of 80% for rainfall and temperature prediction.
