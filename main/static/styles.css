@@ -61,3 +61,10 @@ body {
     font-weight: 800;
     font-size: 40px;
 }
+
+.response-container {
+    background-color: aquamarine;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 1rem;
+}
