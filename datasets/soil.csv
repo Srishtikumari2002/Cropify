@@ -1,0 +1,37 @@
+state,Type of Soil ,N,K,P
+Andhra Pradesh,Black,medium,high,low
+Arunachal Pradesh,Mountain,medium,low,low
+Assam,Alluvial,high,high,low
+Bihar,Peaty,low,low,high
+Chhattisgarh,Red sandy,low,high,low
+Goa,Alluvial,low,high,medium
+Gujarat,Black,medium,high,low
+Haryana,Saline,low,high,medium
+Himachal Pradesh,Alluvial/black,high,medium,low
+Jammu and Kashmir,Alluvial,medium,high,medium
+Jharkhand,Red,low,low,low
+Karnataka,Black,medium,high,low
+Kerala,Alluvial,low,high,medium
+Madhya Pradesh,Black,medium,high,low
+Maharashtra,Black,medium,high,low
+Manipur,Alluvial,low,low,low
+Meghalaya,Loamy,high,medium,low
+Mizoram,Loamy,high,medium,low
+Nagaland,Alluvial,high,low,low
+Odisha,Red,medium,medium,low
+Punjab,Alluvial,medium,high,low
+Rajasthan,Saline,low,low,medium
+Sikkim,Mountain,medium,low,low
+Tamil Nadu,Black,high,high,medium
+Telangana,Red gravelly,low,high,low
+Tripura,Alluvial,medium,medium,low
+Uttarakhand,forest,high,high,medium
+Uttar Pradesh,Alluvial,high,medium,low
+West Bengal,Alluvial,high,high,low
+Andaman and Nicobar Islands,Loamy,high,medium,low
+Chandigarh,Loamy,medium,high,low
+Dadra and Nagar Haveli,Loamy,medium,high,medium
+Daman and Diu,Alluvial,medium,high,low
+Delhi,Alluvial,high,medium,low
+Lakshadweep,Sandy,low,medium,medium
+Puducherry,sandy,high,high,high
