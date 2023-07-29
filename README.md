@@ -13,7 +13,7 @@ This project uses a combination of machine learning models, including Support Ve
 * Crop production yield
 We have also used an OpenWeatherMap API to get the humidity data of a particular location as it was not in the given dataset. 
 
-## Techstacks
+## Tech stacks
 * Python (Flask)
 * API integration
 * Machine learning/ Deep learning models
